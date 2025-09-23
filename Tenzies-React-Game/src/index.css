@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: karla;
+    background: #0B2434;
+
+}
+
+.base-container{
+    background: #F5F5F5;
+    width: 80vw;
+    height: 90vh;
+    margin: 30px 20px;
+    opacity: 1;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    }
+
+.base-container > h1{
+font-family: Karla;
+font-weight: 700;
+font-size: 34px;
+text-align: center;
+margin : 0 ;
+}
+
+.base-container > p{
+font-family: Inter;
+font-weight: 400;
+font-size: 13.11px;
+text-align: center;
+color: #4A4E74;
+}
+
+.roll-button{
+    background: #5035FF;
+    width: 92.2px;
+    height: 35.9px;
+    opacity: 1;
+    border-radius: 3.9px;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.dice-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dice{
+    width: 100%;
+    max-width: 80px;
+    aspect-ratio: 1 / 1;
+    opacity: 1;
+    border-radius: 3.81px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: center;
+    cursor: pointer;
+    
+}
