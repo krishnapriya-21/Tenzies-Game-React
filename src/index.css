@@ -8,7 +8,7 @@ body{
 .base-container{
     background: #F5F5F5;
     width: 80vw;
-    height: 90vh;
+    height: 92vh;
     margin: 30px 20px;
     opacity: 1;
     border-radius: 10px;
@@ -39,7 +39,8 @@ color: #4A4E74;
 
 .roll-button{
     background: #5035FF;
-    width: 92.2px;
+    text-wrap: nowrap;
+    width: auto;
     height: 35.9px;
     opacity: 1;
     border-radius: 3.9px;
