@@ -34,7 +34,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/krishnapriya-21/tenzies-react-game.git
+   git clone https://github.com/krishnapriya-21/Tenzies-Game-React.git
    ```
 2. Install NPM packages
    ```sh
