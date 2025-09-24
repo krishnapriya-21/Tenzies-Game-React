@@ -1,16 +1,46 @@
-# React + Vite
+# Tenzies Game - React Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive web-based implementation of the Tenzies dice game, built with React and Vite. The objective is to roll the dice until all of them show the same number.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Play
 
-## React Compiler
+1.  Press the "Roll" button to start the game with ten random dice.
+2.  The goal is to get all ten dice to show the same number.
+3.  Click on any die to "freeze" it at its current value. Frozen dice will not be re-rolled.
+4.  Continue rolling until all dice are frozen and display the same number.
+5.  Once you win, a victory modal will appear with a confetti celebration!
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+-   **Interactive UI:** Clean and simple interface built with React.
+-   **Dice Freezing:** Click to hold dice between rolls.
+-   **Win Detection:** Automatically detects when the win condition is met.
+-   **Celebration:** Features a confetti effect from `react-confetti` and a victory modal using Bootstrap upon winning.
+-   **Responsive Design:** The layout adapts to different screen sizes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+-   **Frontend:** React (using Hooks like `useState`, `useEffect`, and `useRef`)
+-   **Build Tool:** Vite
+-   **Styling:** CSS & Bootstrap for the modal.
+-   **Effects:** react-confetti for the win celebration.
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/krishnapriya-21/tenzies-react-game.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the development server
+   ```sh
+   npm run dev
+   ```
